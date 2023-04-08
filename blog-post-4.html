@@ -1,0 +1,90 @@
+<!--BLOG POST SOURCE CODE-->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post - Osdae AI</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="nav container">
+            <!--LOGO-->
+            <a href="blog-home.html" class="logo">Osdae<span>AI</span></a>
+            <!--LIST OF FUNCTION-->
+            <div class="link-container">
+                <a href="blog-about.html" class="link">About</a>
+                <a href="blog-submit.html" class="link" id="submit">Contribute</a>
+            </div>
+        </div>
+    </header>
+    <!--POST CONTENT-->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!--BACK TO HOME PAGE-->
+            <a href="blog-home.html" class="back-home">back to home</a>
+            <!--TITLE-->
+            <h1 class="header-title">Machine learning methods</h1>
+            <!--POST IMG-->
+            <img src="resources/img/post-4.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+    <section class="post-content post-container">
+        <p class="post-text">
+            Machine learning models fall into three primary categories.
+        </p>
+        <h2 class="sub-heading">1. Supervised machine learning</h2>
+        <p class="post-text">Supervised learning, also known as supervised machine learning, is defined by its use of
+            labeled datasets to train algorithms to classify data or predict outcomes accurately. As input data is fed
+            into the model, the model adjusts its weights until it has been fitted appropriately. This occurs as part of
+            the cross validation process to ensure that the model avoids overfitting or underfitting. Supervised
+            learning helps organizations solve a variety of real-world problems at scale, such as classifying spam in a
+            separate folder from your inbox. Some methods used in supervised learning include neural networks, naïve
+            bayes, linear regression, logistic regression, random forest, and support vector machine (SVM).
+        </p>
+        <h2 class="sub-heading">2. Unsupervised machine learning</h2>
+        <p class="post-text">Unsupervised learning, also known as unsupervised machine learning, uses machine learning
+            algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data
+            groupings without the need for human intervention. This method’s ability to discover similarities and
+            differences in information make it ideal for exploratory data analysis, cross-selling strategies, customer
+            segmentation, and image and pattern recognition. It’s also used to reduce the number of features in a model
+            through the process of dimensionality reduction. Principal component analysis (PCA) and singular value
+            decomposition (SVD) are two common approaches for this. Other algorithms used in unsupervised learning
+            include neural networks, k-means clustering, and probabilistic clustering methods. </p>
+
+        <h2 class="sub-heading">3. Semi-supervised learning</h2>
+        <p class="post-text">
+            Semi-supervised learning offers a happy medium between supervised and unsupervised learning. During
+            training, it uses a smaller labeled data set to guide classification and feature extraction from a larger,
+            unlabeled data set. Semi-supervised learning can solve the problem of not having enough labeled data for a
+            supervised learning algorithm. It also helps if it’s too costly to label enough data.
+        </p>
+    </section>
+
+    <!--FOOTER-->
+    <div class="footer container">
+        <p>&#169 osdae, 2023</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!--js scripts link-->
+    <script src="resources/js/scripts.js"></script>
+</body>
+
+</html>
